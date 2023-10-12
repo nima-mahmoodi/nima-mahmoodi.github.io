@@ -6,13 +6,13 @@ export default function Layout() {
       <section id="contact" className="py-5">
         <div className="text-center container py-5">
           <div className="text-light pb-5">
-            <h3>Finally, Let's Follow Me!</h3>
+            <h3>Let's Follow Me!</h3>
           </div>
 
           <div className="row justify-content-center">
             {
               socials.filter((social, i) => i < 7).map((social, i) => (
-                <div className="col-sm-1 col-4 py-3">
+                <div className="col-sm-1 col-4 py-3" key={i}>
                   <div className="py-3">
                     <a href={social.link} target="_blank">
                       <img src={"/images/social/" + social.title + "-white.png"}
@@ -30,7 +30,7 @@ export default function Layout() {
           <div className="row justify-content-center">
             {
               socials.filter((social, i) => i > 6).map((social, i) => (
-                <div className="col-sm-1 col-4 py-3">
+                <div className="col-sm-1 col-4 py-3" key={i}>
                   <div className="py-3">
                     <a href={social.link} target="_blank">
                       <img src={"/images/social/" + social.title + "-white.png"}
