@@ -136,6 +136,12 @@ export const releases = [
       { title: "soundcloud", link: "https://soundcloud.com/nimamahmoodi/ulduz-feat-sena?si=7b0a343bf663465e85d863e2538a175c&utm_source=clipboard&utm_medium=text&utm_campaign=social_sharing" },
       { title: "tidal", link: "https://tidal.com/browse/track/251540132" },
     ],
-    text: `haha ha ha`
+    text: `Verse 1 &gt;
+          Ulduz sayaraq gözləmişəm hər gecə yarı
+          Gec gəlmədədir yar, yenə olmuş gecə yarı
+          <hr />
+          Verse 2 &gt;
+          Ulduz sayaraq gözləmişəm hər gecə yarı
+          Gec gəlmədədir yar, yenə olmuş gecə yarı`
   }
 ]
