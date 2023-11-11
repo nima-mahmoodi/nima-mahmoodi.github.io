@@ -28,7 +28,7 @@ const Song: NextPage = () => {
         <link rel="stylesheet" href="/css/styles.css" />
       </Head>
 
-      <section id="releases" className="bg-light text-dark py-5">
+      <section id="releases" className="text-dark py-5" style={{ backgroundColor: '#efefef' }}>
         <div className="container py-5">
           <div className="row justify-content-center">
 
@@ -39,7 +39,7 @@ const Song: NextPage = () => {
             </div>
             <div className="col-sm-5 mb-4">
               <div className="p-2">
-                <h3 className="mt-3">{release.title}</h3>
+                <h1 className="mt-3 fs-3"><span className="d-none">Nima Mahmoodi</span>{release.title}</h1>
                 <h5>Listen on:</h5>
                 <div className="row justify-content-center text-center">
                   {

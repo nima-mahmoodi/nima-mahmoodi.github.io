@@ -7,7 +7,7 @@ export default function Layout({ children, ntopNav, nfooter = false, active = 'i
   return (
     <SSRProvider>
       {!ntopNav && <TopNav active={active} />}
-      <main id="main">{children}</main>
+      <main id="main" className="bg-light">{children}</main>
       {!nfooter && <Footer />}
     </SSRProvider>
   )

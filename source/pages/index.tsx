@@ -25,7 +25,7 @@ const Home: NextPage = () => {
         <link rel="stylesheet" href="/css/styles.css" />
       </Head>
 
-      <section id="hero" className="hero d-grid"></section>
+      <section id="hero" className="hero d-grid container"></section>
 
       <section id="videos" className="bg-light text-dark py-5">
         <div className="container py-5">
@@ -37,13 +37,13 @@ const Home: NextPage = () => {
           </div>
           <div className="text-center pt-5">
             <a href="https://www.youtube.com/@NimaMahmoodi" target="_blank">
-              <span className="fs-3">Watch more...</span>
+              <span className="fs-3">Watch More...</span>
             </a>
           </div>
         </div>
       </section>
 
-      <section id="releases" className="bg-light text-dark py-5">
+      <section id="releases" className="text-dark py-5" style={{ backgroundColor: '#efefef' }}>
         <div className="container py-5">
           <div className="text-center pb-5">
             <h2>Latest Releases</h2>

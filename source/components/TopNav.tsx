@@ -10,10 +10,10 @@ export default function ({ active = 'index' }: { active: String }) {
       <Container className="bg-transparent">
         <Navbar.Brand href="/" className="gracelya me-0 fs-2 me-5">
           <img src="/images/NX-gold.png" style={{
-            width: 64,
+            width: 48,
             // height: 256
           }} alt="" /></Navbar.Brand>
-        <Navbar.Toggle aria-controls="basic-navbar-nav" />
+        <Navbar.Toggle aria-controls="basic-navbar-nav" style={{ transform: 'scale(.8)' }} />
         <Navbar.Collapse id="basic-navbar-nav" style={{ background: 'rgb(248,249,250)' }}>
           <Nav className="me-auto align-items-center">
             {
