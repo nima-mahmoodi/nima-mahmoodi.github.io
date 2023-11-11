@@ -51,42 +51,40 @@ export const releases = [
       { title: "soundcloud", link: "https://soundcloud.com/nimamahmoodi/nima-mahmoodi-zaman-doldu-feat-farmina?si=099efdd6e40346e4a5e40c29ef24e74f&utm_source=clipboard&utm_medium=text&utm_campaign=social_sharing" },
       { title: "tidal", link: "https://tidal.com/browse/track/315231100" },
     ],
-    text: `VERSE 1 &gt;
-          Zaman doldu
-          Giden gitdi
-          Bir ben kaldim
-          Birde nefretim
-          Zor degil
-          Acim keser
-          Neler geçti
-          Buda geçer
-          <hr />
-          CHORUS &gt;
-          Beni sev dedin
-          Sana agladim
-          Koca gonlumu
-          Sana bagladim
-          Sana kirginim
-          Sana vurgunum
-          Ama malesef
-          Sana bagliyim
-          Beni sev dedin
-          Sana agladim
-          Koca gonlumu
-          Sana bagladim
-          Sana kizginim
-          Sana vurgunum
-          Ama malesef
-          Sana bagliyim
-          <hr />
-          VERSE 2 &gt;
-          Bu yalan sevdada
-          Kirilipda vaz gecmedim
-          Cok kirildim hep ama
-          Baska birini sevmedim
-          Kendimden uzak
-          Bir yerde sensiz
-          Unuttum kendimi
+    text: `<b>VERSE 1</b><br />
+          Zaman doldu<br />
+          Giden gitdi<br />
+          Bir ben kaldim<br />
+          Birde nefretim<br />
+          Zor degil<br />
+          Acim keser<br />
+          Neler geçti<br />
+          Buda geçer<br />
+          <b>CHORUS</b><br />
+          Beni sev dedin<br />
+          Sana agladim<br />
+          Koca gonlumu<br />
+          Sana bagladim<br />
+          Sana kirginim<br />
+          Sana vurgunum<br />
+          Ama malesef<br />
+          Sana bagliyim<br />
+          Beni sev dedin<br />
+          Sana agladim<br />
+          Koca gonlumu<br />
+          Sana bagladim<br />
+          Sana kizginim<br />
+          Sana vurgunum<br />
+          Ama malesef<br />
+          Sana bagliyim<br />
+          <b>VERSE 2</b><br />
+          Bu yalan sevdada<br />
+          Kirilipda vaz gecmedim<br />
+          Cok kirildim hep ama<br />
+          Baska birini sevmedim<br />
+          Kendimden uzak<br />
+          Bir yerde sensiz<br />
+          Unuttum kendimi<br />
           Ben kimim`
   }, {
     title: "Secret ft. Sena",
@@ -100,29 +98,26 @@ export const releases = [
       { title: "soundcloud", link: "https://soundcloud.com/nimamahmoodi/nima-mahmoodi-secret-feat-sena?si=9cb030b5d1e24739bfe787233813e384&utm_source=clipboard&utm_medium=text&utm_campaign=social_sharing" },
       { title: "tidal", link: "https://tidal.com/browse/track/303970395" },
     ],
-    text: `VERSE 1 &gt;
-          My heart 
-          The Grave of deep secrets
-          İt's dead 
-          Full of evil spirits 
-          <hr />
-          Told me I'm not allowed to talk
-          I was a kid and I just forgot I forgot that 
-          The past is not ever dead 
-          İt'll always follow you until you lose till the end 
-          <hr />
-          CHORUS  &gt;
-          My lies, my tears 
-          I'm drowning in fears 
-          But Nobody can hear my  screams  I am dead 
-          Nightmares I have 
-          Never told anyone else
-          My deepest my darkest dangerous secret 
-          <hr />
-          VERSE 2 &gt;
-          Never dead, past isn't ever dead 
-          There isn't secret to be taken to your silent grave 
-          To yourself, keeping it to yourself
+    text: `<b>VERSE 1</b><br />
+          My heart <br />
+          The Grave of deep secrets<br />
+          It's dead <br />
+          Full of evil spirits <br />
+          Told me I'm not allowed to talk<br />
+          I was a kid and I just forgot I forgot that <br />
+          The past is not ever dead <br />
+          It'll always follow you until you lose till the end <br />
+          <b>CHORUS</b><br />
+          My lies, my tears <br />
+          I'm drowning in fears <br />
+          But Nobody can hear my  screams  I am dead <br />
+          Nightmares I have <br />
+          Never told anyone else<br />
+          My deepest my darkest dangerous secret <br />
+          <b>VERSE 2</b><br />
+          Never dead, past isn't ever dead <br />
+          There isn't secret to be taken to your silent grave <br />
+          To yourself, keeping it to yourself<br />
           And it will Weaken your soul and make you his slave `
   }, {
     title: "Ulduz ft. Sena",
@@ -136,12 +131,11 @@ export const releases = [
       { title: "soundcloud", link: "https://soundcloud.com/nimamahmoodi/ulduz-feat-sena?si=7b0a343bf663465e85d863e2538a175c&utm_source=clipboard&utm_medium=text&utm_campaign=social_sharing" },
       { title: "tidal", link: "https://tidal.com/browse/track/251540132" },
     ],
-    text: `Verse 1 &gt;
-          Ulduz sayaraq gözləmişəm hər gecə yarı
-          Gec gəlmədədir yar, yenə olmuş gecə yarı
-          <hr />
-          Verse 2 &gt;
-          Ulduz sayaraq gözləmişəm hər gecə yarı
+    text: `<b>VERSE 1</b><br />
+          Ulduz sayaraq gözləmişəm hər gecə yarı<br />
+          Gec gəlmədədir yar, yenə olmuş gecə yarı<br />
+          <b>VERSE 2</b><br />
+          Ulduz sayaraq gözləmişəm hər gecə yarı<br />
           Gec gəlmədədir yar, yenə olmuş gecə yarı`
   }
 ]

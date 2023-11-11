@@ -5,7 +5,7 @@ import { pages } from "./../helper"
 export default function ({ active = 'index' }: { active: String }) {
 
   return (
-    <Navbar bg="dark" expand="lg" id="top-nav"
+    <Navbar bg="light" expand="lg" id="top-nav"
       className="shadow-sm fixed-top bg-gradient" style={{ height: 70 }}>
       <Container className="bg-transparent">
         <Navbar.Brand href="/" className="gracelya me-0 fs-2 me-5">
@@ -14,7 +14,7 @@ export default function ({ active = 'index' }: { active: String }) {
             // height: 256
           }} alt="" /></Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
-        <Navbar.Collapse id="basic-navbar-nav">
+        <Navbar.Collapse id="basic-navbar-nav" style={{ background: 'rgb(248,249,250)' }}>
           <Nav className="me-auto align-items-center">
             {
               pages.map((page, i) => (

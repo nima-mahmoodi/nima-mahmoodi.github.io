@@ -28,23 +28,24 @@ const Song: NextPage = () => {
         <link rel="stylesheet" href="/css/styles.css" />
       </Head>
 
-      <section id="releases" className="bg-dark text-light py-5">
+      <section id="releases" className="bg-light text-dark py-5">
         <div className="container py-5">
           <div className="row justify-content-center">
 
             <div className="col-sm-5 mb-4">
               <img src={"/images/releases/" + release.key + ".jpeg"} alt={release.title}
-                className="p-2" />
+                className="shadow-lg" />
 
             </div>
             <div className="col-sm-5 mb-4">
               <div className="p-2">
                 <h3 className="mt-3">{release.title}</h3>
                 <h5>Listen on:</h5>
-                <div className="row text-center">
+                <div className="row justify-content-center text-center">
                   {
                     release.links?.map((rel: any, i: any) => (
-                      <div className="col-sm-2 col-4" key={i}>
+                      <div className="col-sm-3 col-4" key={i}
+                        style={{ transform: 'scale(1)' }}>
                         <div className="py-3">
                           <a href={rel.link} target="_blank">
                             <OverlayTrigger placement="bottom" overlay={(
@@ -52,9 +53,8 @@ const Song: NextPage = () => {
                                 <span>{rel.title}</span>
                               </Tooltip>
                             )}>
-                              <img src={"/images/social/" + rel.title + "-white.png"}
+                              <img src={"/images/social/" + rel.title + "-black.png"}
                                 alt={"nima mahmoodi " + rel.title} />
-                              {/* <span>{rel.title}</span> */}
                             </OverlayTrigger>
                           </a>
                         </div>
@@ -64,7 +64,7 @@ const Song: NextPage = () => {
                   <div className="col12 text-start">
                     <h5>Lyrics:</h5>
                   </div>
-                  <div className="col12 text-start" dangerouslySetInnerHTML={{ __html: `<code>${release.text}</code>` }}>
+                  <div className="col12 text-start" dangerouslySetInnerHTML={{ __html: `<code class="text-dark">${release.text}</code>` }}>
 
                   </div>
                 </div>
