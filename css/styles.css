@@ -1,14 +1,6 @@
 @font-face {
-  font-family: "gracelya";
-  src: url("/fonts/Gracelya.ttf");
-  font-style: normal;
-  font-weight: 400;
-  font-display: swap;
-}
-
-@font-face {
-  font-family: "beattes";
-  src: url("/fonts/Beattes.ttf");
+  font-family: "sans";
+  src: url("/fonts/OpenSans-Medium.ttf");
   font-style: normal;
   font-weight: 400;
   font-display: swap;
@@ -39,6 +31,7 @@
   --bs-gray-900: rgb(34, 40, 46);
 
   --bs-primary: rgb(110, 151, 212);
+  --bs-primary: rgb(47, 52, 61);
   --bs-secondary: #6c757d;
   --bs-success: #198754;
   --bs-info: #0dcaf0;
@@ -73,12 +66,7 @@ html,
 body {
   padding: 0;
   margin: 0;
-  font-family: beattes !important;
   text-align: justify;
-}
-
-.gracelya {
-  font-family: gracelya !important;
 }
 
 #main {
@@ -112,6 +100,13 @@ button {
 
 a:hover * {
   transform: scale(1.1);
+  color: #174c99 !important;
+}
+
+.btn-primary:hover {
+  color: #fff !important;
+  background-color: #0e274d !important;
+  border-color: #0e274d !important;
 }
 
 img {
@@ -123,6 +118,14 @@ img {
   box-sizing: border-box;
   position: relative;
   transition: .3s;
+}
+
+*:not(.fas) {
+  font-family: sans !important;
+}
+
+button {
+  transition: .3s !important
 }
 
 
