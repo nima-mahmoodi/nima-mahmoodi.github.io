@@ -40,6 +40,53 @@ export const socials = [{
 
 export const releases = [
   {
+    title: "Zaman Doldu (emoza remix)",
+    key: "zaman-doldu-remix",
+    links: [
+      { title: "youtube", link: "https://www.youtube.com/watch?v=R2JalFcLEQQ" },
+      { title: "spotify", link: "https://open.spotify.com/album/3fyWpUpoZSMrGO8E7atVNl?si=Xktty8agRZC9FuJsv8YGjg" },
+      { title: "apple", link: "https://music.apple.com/us/album/zaman-doldu-remix-feat-farmina-single/1714788663" },
+      { title: "amazon", link: "https://music.amazon.co.uk/albums/B0CMD53D6N?marketplaceId=A1F83G8C2ARO7P&musicTerritory=GB&ref=dm_sh_nnNWD92jU1IATCfiGA122LJt4" },
+      { title: "deezer", link: "https://deezer.page.link/p9B5QrYofienKUZe6" },
+      { title: "soundcloud", link: "https://soundcloud.com/nimamahmoodi/nima-mahmoodi-zaman-doldu-feat-farmina-emoza-remix?si=7f952f3b2e9240cb968b315f1d223a16&utm_source=clipboard&utm_medium=text&utm_campaign=social_sharing" },
+      { title: "tidal", link: "https://tidal.com/browse/album/326233089" },
+    ],
+    text: `<b>VERSE 1</b><br />
+          Zaman doldu<br />
+          Giden gitdi<br />
+          Bir ben kaldim<br />
+          Birde nefretim<br />
+          Zor degil<br />
+          Acim keser<br />
+          Neler geçti<br />
+          Buda geçer<br />
+          <b>CHORUS</b><br />
+          Beni sev dedin<br />
+          Sana agladim<br />
+          Koca gonlumu<br />
+          Sana bagladim<br />
+          Sana kirginim<br />
+          Sana vurgunum<br />
+          Ama malesef<br />
+          Sana bagliyim<br />
+          Beni sev dedin<br />
+          Sana agladim<br />
+          Koca gonlumu<br />
+          Sana bagladim<br />
+          Sana kizginim<br />
+          Sana vurgunum<br />
+          Ama malesef<br />
+          Sana bagliyim<br />
+          <b>VERSE 2</b><br />
+          Bu yalan sevdada<br />
+          Kirilipda vaz gecmedim<br />
+          Cok kirildim hep ama<br />
+          Baska birini sevmedim<br />
+          Kendimden uzak<br />
+          Bir yerde sensiz<br />
+          Unuttum kendimi<br />
+          Ben kimim`
+  }, {
     title: "Zaman Doldu ft. Farmina",
     key: "zaman-doldu",
     links: [
